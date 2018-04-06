@@ -1,7 +1,6 @@
 package main
 
 import (
-	"flag"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -12,8 +11,12 @@ import (
 var path string
 
 func init() {
-	flag.StringVar(&path, "path", ".", "scan path")
-	flag.Parse()
+	if len(os.Args) != 2 {
+		panic("invalid find path!")
+	}
+	path = os.Args[1]
+	//flag.StringVar(&path, "path", ".", "scan path")
+	//flag.Parse()
 
 	fmt.Println("path=", path)
 }
