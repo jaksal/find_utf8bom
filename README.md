@@ -8,11 +8,12 @@ install :
 
 * install golang latest. (https://golang.org/dl/)
 * download src (git clone https://github.com/jaksal/find_utf8bom.git)
-* go build or go install
+* cd find_utf8bom 
+* go get && go build
 
 usage :
 -------------
 
-`
+```
 find_utf8bom path=~/src
-`
+```
