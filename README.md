@@ -1,7 +1,7 @@
 find_utf8bom
 ==================
 
-find utf8 with BOM encoding file
+소스코드중 의도치않게 UTF8 With BOM 으로 저장되는 일이 생겨서 만들어봄.
 
 install :
 -------------
