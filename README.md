@@ -15,5 +15,6 @@ usage :
 -------------
 
 ```
-find_utf8bom path=~/src
+find_utf8bom [path]
+find_utf8bom ./src
 ```
