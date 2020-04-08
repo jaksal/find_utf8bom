@@ -30,7 +30,7 @@ func main() {
 			}
 			_, enc := utfbom.Skip(f)
 			if enc != utfbom.Unknown {
-				fmt.Printf("%s ==> %d\n", path, enc)
+				fmt.Printf("%s ==> %s\n", path, enc)
 			}
 		}
 		return nil
